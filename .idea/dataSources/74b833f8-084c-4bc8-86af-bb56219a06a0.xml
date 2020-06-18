@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="OAManagerSystem@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.16">
+    <root id="1">
+      <ServerVersion>10.50.1600</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="OAManagerSystem">
+      <ObjectId>8</ObjectId>
+      <Current>1</Current>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+      <Fingerprint>8.43986/B625D54F-9350-4DBB-A1CE-75A5D84A6E32@DESKTOP-9SKQJJH</Fingerprint>
+    </database>
+    <database id="3" parent="1" name="ReportServer">
+      <ObjectId>5</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="4" parent="1" name="ReportServerTempDB">
+      <ObjectId>6</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="5" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="ssm">
+      <ObjectId>7</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <schema id="10" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="16" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="18" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="20" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2020-06-17.03:09:55.790</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="21" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="22" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="23" parent="20" name="permission">
+      <ObjectId>917578307</ObjectId>
+      <CreatedTimestamp>2020-06-12.17:13:20.353</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-12.17:13:20.370</ModifiedTimestamp>
+    </table>
+    <table id="24" parent="20" name="role">
+      <ObjectId>837578022</ObjectId>
+      <CreatedTimestamp>2020-06-12.04:28:53.830</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-12.04:28:54.127</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="20" name="role_permission">
+      <ObjectId>949578421</ObjectId>
+      <CreatedTimestamp>2020-06-13.19:41:56.483</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-13.19:41:56.660</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="20" name="user_role">
+      <ObjectId>549576996</ObjectId>
+      <CreatedTimestamp>2020-06-11.19:53:15.773</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-15.02:37:27.440</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="20" name="users">
+      <ObjectId>997578592</ObjectId>
+      <CreatedTimestamp>2020-06-15.02:37:26.983</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-16.16:42:31.360</ModifiedTimestamp>
+    </table>
+    <column id="28" parent="23" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="23" name="name">
+      <Position>2</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <column id="30" parent="23" name="menuUrl">
+      <Position>3</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <column id="31" parent="23" name="url">
+      <Position>4</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <column id="32" parent="23" name="type">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="33" parent="23" name="parentId">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="34" parent="23" name="createTime">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="35" parent="23" name="PK_permission">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="36" parent="23" name="PK_permission">
+      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2020-06-12.17:13:20.360</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-12.17:13:20.360</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_permission</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="37" parent="24" name="id">
+      <Position>1</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="24" name="name">
+      <Position>2</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <column id="39" parent="24" name="statement">
+      <Position>3</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <column id="40" parent="24" name="createUserName">
+      <Position>4</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <column id="41" parent="24" name="createTime">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="42" parent="24" name="PK_role">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="43" parent="24" name="PK_role">
+      <ObjectId>853578079</ObjectId>
+      <CreatedTimestamp>2020-06-12.04:28:54.037</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-12.04:28:54.037</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_role</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="44" parent="25" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="25" name="roleId">
+      <Position>2</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <column id="46" parent="25" name="permissionId">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="47" parent="25" name="PK_role_permission">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="48" parent="25" name="PK_role_permission">
+      <ObjectId>965578478</ObjectId>
+      <CreatedTimestamp>2020-06-13.19:41:56.660</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-13.19:41:56.660</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_role_permission</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="49" parent="26" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="26" name="roleId">
+      <Position>2</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <column id="51" parent="26" name="userId">
+      <Position>3</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <index id="52" parent="26" name="PK_user_role">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="53" parent="26" name="PK_user_role">
+      <ObjectId>565577053</ObjectId>
+      <CreatedTimestamp>2020-06-11.19:53:15.780</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-11.19:53:15.780</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_user_role</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="54" parent="26" name="FK_user_role_role">
+      <ObjectId>869578136</ObjectId>
+      <CreatedTimestamp>2020-06-12.04:28:54.127</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-12.04:28:54.127</ModifiedTimestamp>
+      <ColNames>roleId</ColNames>
+      <RefTableId>837578022</RefTableId>
+      <RefTableName>role</RefTableName>
+      <RefKeyName>PK_role</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="55" parent="26" name="FK_user_role_users">
+      <ObjectId>1061578820</ObjectId>
+      <CreatedTimestamp>2020-06-15.02:37:27.377</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-15.02:37:27.377</ModifiedTimestamp>
+      <ColNames>userId</ColNames>
+      <RefTableId>997578592</RefTableId>
+      <RefTableName>users</RefTableName>
+      <RefKeyName>PK_users</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="56" parent="27" name="id">
+      <Position>1</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="27" name="accountName">
+      <Position>2</Position>
+      <DataType>nvarchar(32 char)|0s</DataType>
+    </column>
+    <column id="58" parent="27" name="accountPassword">
+      <Position>3</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <column id="59" parent="27" name="name">
+      <Position>4</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <column id="60" parent="27" name="status">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="61" parent="27" name="email">
+      <Position>6</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <column id="62" parent="27" name="loginSum">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="63" parent="27" name="createTime">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="64" parent="27" name="loginTime">
+      <Position>9</Position>
+      <DefaultConstraintName>DF_users_loginTime</DefaultConstraintName>
+      <DefaultExpression>(2000-1)-1</DefaultExpression>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="65" parent="27" name="PK_users">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="66" parent="27" name="UQ_accountName">
+      <Position>2</Position>
+      <ColNames>accountName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="27" name="PK_users">
+      <ObjectId>1029578706</ObjectId>
+      <CreatedTimestamp>2020-06-15.02:37:27.133</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-15.02:37:27.133</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_users</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="68" parent="27" name="UQ_accountName">
+      <ObjectId>1045578763</ObjectId>
+      <CreatedTimestamp>2020-06-15.02:37:27.140</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-15.02:37:27.140</ModifiedTimestamp>
+      <ColNames>accountName</ColNames>
+      <UnderlyingIndexName>UQ_accountName</UnderlyingIndexName>
+    </key>
+    <default id="69" parent="27" name="DF_users_loginTime">
+      <ObjectId>1013578649</ObjectId>
+      <ModifiedTimestamp>2020-06-15.02:37:26.990</ModifiedTimestamp>
+      <ColNames>loginTime</ColNames>
+      <DefaultExpression>(2000-1)-1</DefaultExpression>
+    </default>
+  </database-model>
+</dataSource>

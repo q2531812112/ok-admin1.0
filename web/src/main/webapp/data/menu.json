@@ -1,0 +1,236 @@
+{
+    "code": 0,
+    "msg": "操作成功",
+    "data": [
+        {
+            "title": "会员管理",
+            "path": "",
+            "font": "layui-icon",
+            "icon": "&#xe66f;",
+            "spread": true,
+            "children": [
+                {
+                    "title": "用户列表",
+                    "path": "pages/member/user.jsp",
+                    "font": "iconfont",
+                    "icon": "&#xe639;",
+                    "spread": false
+                },
+                {
+                    "title": "角色列表",
+                    "path": "pages/member/role.jsp",
+                    "font": "iconfont",
+                    "icon": "&#xe645;",
+                    "spread": false
+                },
+                {
+                    "title": "权限列表",
+                    "path": "pages/member/permission.jsp",
+                    "font": "iconfont",
+                    "icon": "&#xe640;",
+                    "spread": false
+                }
+            ]
+        },
+        {
+            "title": "常用页面",
+            "path": "",
+            "font": "layui-icon",
+            "icon": "&#xe672;",
+            "spread": false,
+            "children": [
+                {
+                    "title": "文章列表",
+                    "path": "pages/often/article.jsp",
+                    "font": "layui-icon",
+                    "icon": "&#xe62e;",
+                    "spread": false
+                },
+                {
+                    "title": "留言列表",
+                    "path": "pages/often/message.jsp",
+                    "font": "layui-icon",
+                    "icon": "&#xe62e;",
+                    "spread": false
+                },
+                {
+                    "title": "产品列表",
+                    "path": "pages/often/product.jsp",
+                    "font": "layui-icon",
+                    "icon": "&#xe62e;",
+                    "spread": false
+                },
+                {
+                    "title": "下载列表",
+                    "path": "pages/often/download.jsp",
+                    "font": "layui-icon",
+                    "icon": "&#xe62e;",
+                    "spread": false
+                },
+                {
+                    "title": "链接列表",
+                    "path": "pages/often/link.jsp",
+                    "font": "layui-icon",
+                    "icon": "&#xe62e;",
+                    "spread": false
+                },
+                {
+                    "title": "任务列表",
+                    "path": "pages/often/issue.jsp",
+                    "font": "layui-icon",
+                    "icon": "&#xe62e;",
+                    "spread": false
+                },
+                {
+                    "title": "图片列表",
+                    "path": "pages/often/link.jsp",
+                    "font": "layui-icon",
+                    "icon": "&#xe62e;",
+                    "spread": false
+                }
+            ]
+        },
+        {
+            "title": "系统管理",
+            "path": "",
+            "font": "layui-icon",
+            "icon": "&#xe716;",
+            "spread": false,
+            "children": [
+                {
+                    "title": "网站配置",
+                    "path": "pages/system/system-setting.jsp",
+                    "font": "iconfont",
+                    "icon": "&#xe61c;",
+                    "spread": false
+                },
+                {
+                    "title": "系统日志",
+                    "path": "pages/system/system-log.jsp",
+                    "font": "iconfont",
+                    "icon": "&#xe614;",
+                    "spread": false
+                },
+                {
+                    "title": "屏蔽词",
+                    "path": "pages/system/system-shield.jsp",
+                    "font": "iconfont",
+                    "icon": "&#xe641;",
+                    "spread": false
+                }
+            ]
+        }, {
+            "title": "其他网站",
+            "path": "",
+            "font": "layui-icon",
+            "icon": "&#xe658;",
+            "spread": false,
+            "children": [
+                {
+                    "title": "购物网站",
+                    "path": "",
+                    "font": "layui-icon",
+                    "icon": "&#xe658;",
+                    "spread": false,
+                    "children": [
+                        {
+                            "title": "苏宁",
+                            "path": "https://www.suning.com",
+                            "font": "layui-icon",
+                            "icon": "&#xe600;",
+                            "spread": false
+                        },
+                        {
+                            "title": "京东",
+                            "path": "https://www.jd.com",
+                            "font": "layui-icon",
+                            "icon": "&#xe600;",
+                            "spread": false
+                        },
+                        {
+                            "title": "阿里",
+                            "path": "",
+                            "font": "layui-icon",
+                            "icon": "&#xe658;",
+                            "spread": false,
+                            "children": [
+                                {
+                                    "title": "淘宝",
+                                    "path": "https://www.taobao.com",
+                                    "font": "layui-icon",
+                                    "icon": "&#xe600;",
+                                    "spread": false
+                                },
+                                {
+                                    "title": "天猫",
+                                    "path": "https://www.tmall.com",
+                                    "font": "layui-icon",
+                                    "icon": "&#xe600;",
+                                    "spread": false
+                                },
+                                {
+                                    "title": "聚划算",
+                                    "path": "https://ju.taobao.com",
+                                    "font": "layui-icon",
+                                    "icon": "&#xe600;",
+                                    "spread": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "新浪微博",
+                    "path": "https://www.sina.com.cn",
+                    "font": "layui-icon",
+                    "icon": "&#xe600;",
+                    "spread": false
+                },
+                {
+                    "title": "搜索引擎",
+                    "path": "",
+                    "font": "layui-icon",
+                    "icon": "&#xe658;",
+                    "spread": false,
+                    "children": [
+                        {
+                            "title": "百度",
+                            "path": "https://www.baidu.com",
+                            "font": "layui-icon",
+                            "icon": "&#xe600;",
+                            "spread": false
+                        },
+                        {
+                            "title": "谷歌",
+                            "path": "https://www.google.com",
+                            "font": "layui-icon",
+                            "icon": "&#xe600;",
+                            "spread": false
+                        },
+                        {
+                            "title": "360搜索360搜索360搜索360搜索360搜索360搜索",
+                            "path": "https://www.so.com",
+                            "font": "layui-icon",
+                            "icon": "&#xe600;",
+                            "spread": false
+                        }
+                    ]
+                },
+                {
+                    "title": "搜狐",
+                    "path": "http://www.sohu.com",
+                    "font": "layui-icon",
+                    "icon": "&#xe600;",
+                    "spread": false
+                },
+                {
+                    "title": "网易",
+                    "path": "https://www.163.com",
+                    "font": "layui-icon",
+                    "icon": "&#xe600;",
+                    "spread": false
+                }
+            ]
+        }
+    ]
+}

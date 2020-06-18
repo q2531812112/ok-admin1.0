@@ -1,0 +1,47 @@
+{
+  "code":0,
+  "msg":"",
+  "count":5,
+  "data": [
+    {
+      "id":1,
+      "name":"根目录",
+      "menuUrl":" ",
+      "url":"          ",
+      "type":0,
+      "parentId":-1
+    },
+    {
+      "id":2,
+      "name":"用户管理",
+      "menuUrl":"oa/user",
+      "url":"null",
+      "type":-1,
+      "parentId":1
+    },
+    {
+      "id":3,
+      "name":"添加用户",
+      "menuUrl":"null",
+      "url":"user:add",
+      "type":1,
+      "parentId":2
+    },
+    {
+      "id":4,
+      "name":"角色管理",
+      "menuUrl":"oa/role",
+      "url":"",
+      "type":-1,
+      "parentId":1
+    },
+    {
+      "id":5,
+      "name":"添加角色",
+      "menuUrl":"",
+      "url":"role:add",
+      "type":1,
+      "parentId":4
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "code":0,
+  "msg":"",
+  "data":[
+    {
+      "id":1,
+      "name":"根目录",
+      "menuUrl":" ",
+      "url":"          ",
+      "type":0,
+      "parentId":0,
+      "createTime":-2209017593310,
+    },
+    {"id":2,"name":"用户管理","menuUrl":"oa/user","url":null,"type":-1,"parentId":1,"createTime":1591924440000},{"id":3,"name":"添加用户","menuUrl":null,"url":"user:add","type":1,"parentId":2,"createTime":1591924440000},{"id":4,"name":"角色管理","menuUrl":"oa/role","url":null,"type":-1,"parentId":1,"createTime":1591924440000},{"id":5,"name":"添加角色","menuUrl":"","url":"role:add","type":1,"parentId":4,"createTime":1591924440000}],"count":5,"limit":0,"page":0}
